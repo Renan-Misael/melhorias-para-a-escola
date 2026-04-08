@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>NeuralEdu - Acesso</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .login-box { max-width: 400px; margin: 100px auto; text-align: center; }
+        .login-box input { width: 100%; padding: 15px; margin: 10px 0; background: transparent; border: 1px solid var(--neon-blue); color: white; border-radius: 8px; outline: none; }
+        .login-box input:focus { box-shadow: 0 0 15px var(--neon-blue); }
+        .btn { width: 100%; padding: 15px; background: transparent; border: 2px solid var(--neon-purple); color: white; border-radius: 8px; cursor: pointer; font-weight: bold; text-transform: uppercase; transition: 0.3s; }
+        .btn:hover { background: var(--neon-purple); box-shadow: 0 0 20px var(--neon-purple); }
+    </style>
+</head>
+<body>
+    <div class="glass-panel login-box">
+        <h1 style="color: var(--neon-blue); text-shadow: 0 0 10px var(--neon-blue);">NeuralEdu</h1>
+        <p>Monitoramento Biométrico Escolar</p>
+        <br>
+        <input type="text" placeholder="ID do Professor">
+        <input type="password" placeholder="Senha de Segurança">
+        <button class="btn" onclick="window.location.href='dashboard.html'">Acessar Sistema</button>
+    </div>
+</body>
+</html>
